@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.next-watch-logo {
+  height: 40px;
+  width: 120px;
+  align-self: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+.form-main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+
+.label1 {
+  width: 100%;
+  padding: 6px;
+}
+
+.user-input1 {
+  width: 100%;
+  outline: none;
+}
+
+.label2 {
+  width: 100%;
+  padding: 6px;
+}
+.pass-input1 {
+  width: 100%;
+  outline: none;
+}
+.lb1 {
+  color: rgb(125, 117, 117);
+}
+.lb2 {
+  color: rgb(125, 117, 117);
+}
+.check {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+.ps-label {
+  font-size: 12px;
+}
+.login-button {
+  background-color: rgb(37, 77, 198);
+  border: none;
+  color: white;
+  border-radius: 3px;
+  height: 30px;
+  margin-top: 20px;
+}
